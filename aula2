@@ -6,18 +6,28 @@ Master -> feature -> bugfix !
 
 Para ver qual branch está atualmente -> git branch 
 Para navegar entre as branchs use -> git checkout <name_branch>
-Para criar uma branch use -> git checkout -b <name>
+Para criar uma branch e entre na branch -> git checkout -b <name>
 Para remover uma branch -> git branch -d <name>
+
+---
 
 Para fazer o merge(unir) -> git merge <branch_desejavel>
 desvatagem -> polui os commits
 
 git merge <branch> --squash 
 faz as alterações e comita apenas uma vez ! 
+evita a poluição nos commits ! 
 
-git merge <> --rebase 
+git rebase <branch>
+
 
 git checkout <hash> <arquivo> -> caso queira recuperar um arquivo especifico de uma versão anterior ! 
+git checkout -> serve para navegar entre as branchs e commits ! 
+
+git reset HEAD~1 --hard -> volta para o ultimo commit e não fica com os arquivos ! 
+ 
+
+
 
 
 
