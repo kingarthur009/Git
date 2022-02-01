@@ -3,6 +3,7 @@ Conceitos e principais comandos de versionamento
 git config --global user.name "name"
 git config --global user.email "email"  
 git config --global init.defaultBranch <name> -> sempre colocar main ! ('ramo')
+git config --global core.editor "code --wait"
 
 git config --list
 
@@ -19,6 +20,9 @@ git commit -m "msg" <--> git commit -am "msg" || -> A mensagem precisa ser clara
 arquivo -> .gitignore -> arquivo que tem uma função especial ! 
 
 git diff -> mostra as diferenças entre o último commit ! 
+git diff --staged 
+git restore --staged teste
+
 
 git log 
 
@@ -37,9 +41,14 @@ git checkout <tag> ->
 
 git checkout <brach/master/main>
 
-git checkout <hash>
+git checkout <hash> -> muda de versoẽs 
 
 git show <hash> -> mostrar detalhes ! 
+
+git reset <> --soft 
+git reset <> --hard 
+
+git show 
 
 
 
