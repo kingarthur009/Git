@@ -1,0 +1,52 @@
+Conceitos e principais comandos de versionamento
+
+git config --global user.name "name"
+git config --global user.email "email"  
+git config --global init.defaultBranch <name> -> sempre colocar main ! ('ramo')
+
+git config --list
+
+git init -> adicionar o repositório git ! 
+
+git status 
+
+git add <>
+
+git rm --cached <> -> remove do rastreamento(container), ou seja , da área do stage ! 
+
+git commit -m "msg" <--> git commit -am "msg" || -> A mensagem precisa ser clara e 'comprensivel' 
+
+arquivo -> .gitignore -> arquivo que tem uma função especial ! 
+
+git diff -> mostra as diferenças entre o último commit ! 
+
+git log 
+
+git log --oneline --graphy 
+
+git commit -am "msg" --amend
+
+git checkout <arquivo> -> descarta alterações, lembrando que o arquivo precisa já estar na área stage ! 
+git checkout . -> descarta todas as alterações feitas na pasta ! 
+
+git rm <arquivo> -> informa ão git que o arquivo/diretório foi excluido ! 
+
+git tag <nome> 
+
+git checkout <tag> ->
+
+git checkout <brach/master/main>
+
+git checkout <hash>
+
+git show <hash> -> mostrar detalhes ! 
+
+
+
+
+
+
+
+
+
+
