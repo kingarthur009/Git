@@ -1,0 +1,19 @@
+-> Stash - Escondendo arquivos para navegar entre branchs ! 
+
+
+git stash list 
+
+git stash pop
+
+git stash apply 
+
+git stash drop 
+
+git stash clear 
+
+git stash show 
+
+git save <msg>
+
+
+
