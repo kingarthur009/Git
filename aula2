@@ -1,1 +1,24 @@
 AULA 2
+
+Branch -> é uma ramificação ! 
+
+Master -> feature -> bugfix ! 
+
+Para ver qual branch está atualmente -> git branch 
+Para navegar entre as branchs use -> git checkout <name_branch>
+Para criar uma branch use -> git checkout -b <name>
+Para remover uma branch -> git branch -d <name>
+
+Para fazer o merge(unir) -> git merge <branch_desejavel>
+desvatagem -> polui os commits
+
+git merge <branch> --squash 
+faz as alterações e comita apenas uma vez ! 
+
+git merge <> --rebase 
+
+git checkout <hash> <arquivo> -> caso queira recuperar um arquivo especifico de uma versão anterior ! 
+
+
+
+
