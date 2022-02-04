@@ -22,6 +22,9 @@ arquivo -> .gitignore -> arquivo que tem uma função especial !
 git diff -> mostra as diferenças entre o último commit ! 
 git diff --staged 
 git restore --staged teste
+* Caso o arquivo esteja rastreado é o usuário alterou o arquivo , use o git diff para ver o que alterou e use 
+git restore <arquivo>, para voltar ão arquivo original ! 
+
 
 
 git log 
