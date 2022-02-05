@@ -1,0 +1,20 @@
+--> Repositórios Remotos !
+
+git remote 
+git remote -v 
+git remote show <nome>
+git remote add <origin> <link_repo>
+
+git push <link>
+git pull <nome>
+* git pull baixa o código e faz merge automaticamente ! 
+*sempre atualizar antes de enviar dados(push) para o reposiório !(comportamento padrão)
+
+git reflog
+git cherry-pick (hash)
+
+git fetch -> baixa o código , porém nao mescla(merge)  !
+* o usuário precisa fazer o merge manual ! 
+
+git clone <link>
+
